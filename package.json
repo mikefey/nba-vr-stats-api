@@ -1,0 +1,20 @@
+{
+  "name": "vr-stats",
+  "version": "0.0.1",
+  "description": "VR NBA STATS API",
+  "author": "Mike Fey",
+  "repository": {
+    "url": "https://github.com/mikefey/nba-vr-stats-api",
+    "type": "git"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "finalhandler": "^0.5.0",
+    "http-server": "^0.9.0",
+    "request": "^2.81.0",
+    "router": "^1.1.4"
+  },
+  "main": "server.js"
+}
